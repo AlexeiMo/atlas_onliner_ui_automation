@@ -1,0 +1,6 @@
+# Project exclude paths
+/allure-report/
+allure-results/
+/.idea/
+/target/
+/src/main/resources/testData.json
