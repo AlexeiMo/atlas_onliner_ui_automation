@@ -1,5 +1,6 @@
 package com.example.onliner.site;
 
+import com.example.onliner.page.CatalogPage;
 import com.example.onliner.page.LoginPage;
 import com.example.onliner.page.MainPage;
 import io.qameta.atlas.webdriver.WebSite;
@@ -12,4 +13,6 @@ public interface OnlinerSite extends WebSite {
     @Page
     MainPage onMainPage();
 
+    @Page(url="https://catalog.onliner.by/")
+    CatalogPage onCatalogPage();
 }
